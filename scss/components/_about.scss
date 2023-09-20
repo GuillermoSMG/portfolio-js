@@ -1,0 +1,52 @@
+@import '../base/circles';
+/* ========== ABOUT ME ========== */
+.aboutme-container {
+  position: relative;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85svh;
+
+  @media (max-width: 1040px) {
+    min-height: 40vh;
+  }
+
+  .aboutme {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    width: var(--main-width);
+    padding: 2rem;
+    border-radius: 30px;
+    z-index: 1000;
+
+    .aboutme-img-container {
+      background: var(--gradient);
+      border-radius: 720px 340px 450px 650px;
+
+      .aboutme-img {
+        background-color: var(--bg-primary);
+        border-radius: 750px 1230px 800px 450px;
+        opacity: 0.95;
+
+        @media (max-width: 530px) {
+          display: none;
+        }
+      }
+    }
+
+    .aboutme-p {
+      color: var(--title-color);
+      font-size: 1.3em;
+      font-weight: 700;
+
+      @media (max-width: 1040px) {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+/* ========== ABOUT ME END ========== */

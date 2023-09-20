@@ -1,0 +1,12 @@
+.project-page {
+  height: 100svh;
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .project-page__title {
+    color: var(--title-color);
+    font-size: 3em;
+  }
+}

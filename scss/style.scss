@@ -1,0 +1,36 @@
+@import './base/_reset';
+@import './base/_scrollbar';
+@import './base/_circles';
+@import './components/_header';
+@import './components/_home';
+@import './components/_projects';
+@import './components/_about';
+@import './components/_techstack';
+@import './components/_project-page';
+
+:root {
+  --bg-primary: rgb(2 6 23/1);
+  --bg-secundary: #fff;
+  --bg-primary-scale: #646464;
+  --title-color: #fff;
+  --subtitle-color: #dddcdc;
+  --txt-color: #adadad;
+  --main-width: 65%;
+  --main-height: 70vh;
+  --action-color: #ee609c;
+  --action-hover: #00c9b7;
+  --gradient: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+}
+@media screen and (max-width: 850px) {
+  :root {
+    --main-width: 95%;
+  }
+}

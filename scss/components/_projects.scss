@@ -1,0 +1,132 @@
+/* ========== PROJECTS ========== */
+
+.projects-container {
+  background: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-title {
+  font-size: 3em;
+  color: #cbd5e1;
+  width: var(--main-width);
+  margin: 6rem auto 4rem;
+  text-align: center;
+}
+
+.project-title {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-wrap: balance;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000033;
+  border: none;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  .projects {
+    margin: 3rem;
+    gap: 3rem;
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .project {
+    border: 1px solid rgb(30 41 59);
+    border-radius: 24px;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    width: 65%;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+.project-img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  padding-inline: 1rem;
+}
+
+.project-img {
+  object-fit: cover;
+  width: 128px;
+  height: 128px;
+  border-radius: 20px;
+}
+
+.project-img:hover {
+  opacity: 0.8;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-link {
+  text-decoration: none;
+  display: flex;
+}
+
+.project-description {
+  color: var(--txt-color);
+  font-size: 0.9em;
+}
+
+.project-stack {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  color: #fff;
+  gap: 0.5rem 1rem;
+  align-items: center;
+}
+
+.stack-technology {
+  display: flex;
+  align-items: center;
+}
+
+.stack-img {
+  width: 24px;
+}
+
+.firebase {
+  height: 25.6px;
+}
+
+/* ========== PROJECTS END ========== */

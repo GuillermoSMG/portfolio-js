@@ -1,0 +1,18 @@
+/* ========== SCROLL BAR ========== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(1, 19, 97);
+}
+
+/* ========== SCROLL BAR END ========== */

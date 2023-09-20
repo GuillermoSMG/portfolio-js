@@ -1,0 +1,91 @@
+/* ========== HEADER ========== */
+
+.header-container {
+  background-color: rgba(2 6 23/0.7);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  position: fixed;
+  z-index: 5000;
+
+  .header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3rem;
+    width: var(--main-width);
+
+    .logo-link {
+      color: var(--title-color);
+      text-decoration: none;
+    }
+
+    .mobile-nav-toggle {
+      display: none;
+
+      @media (max-width: 630px) {
+        position: absolute;
+        display: block;
+        z-index: 9999;
+        background-color: transparent;
+        background-image: url('../../logos/white-menu.webp');
+        background-size: contain;
+        border: none;
+        cursor: pointer;
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 7.5px;
+        right: 15px;
+
+        &[aria-expanded='true'] {
+          background-image: url('../../logos/white-close.webp');
+          background-size: contain;
+        }
+      }
+    }
+
+    .nav-list {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 1.1em;
+
+      &[data-visible='true'] {
+        transform: translateX(0%);
+      }
+
+      @media (max-width: 630px) {
+        height: 100svh;
+        gap: 2em;
+        position: fixed;
+        inset: 0 0 0 30%;
+        padding: min(30vh, 10rem) 2em;
+        flex-direction: column;
+        transform: translateX(100%);
+        background-color: hsl(0 0% 0% / 1);
+        transition: transform 350ms ease-out;
+
+        @supports (backdrop-filter: blur(1.5rem)) {
+          backdrop-filter: blur(1.5rem);
+          background-color: rgb(2 6 23/0.9);
+        }
+      }
+
+      .list-link {
+        color: rgb(226 232 240);
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: #fff;
+        }
+
+        @media (max-width: 630px) {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* ========== HEADER END ========== */
