@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TITLE -->
+    <title>Portfolio - Guillermo San Martín</title>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- META TAGS -->
+    <meta
+      name="description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+    <meta
+      name="keywords"
+      content="portfolio Guillermo react javascript css html frontend web developer tailwind it technology desarrollo navegador"
+    />
+
+    <!-- OG TAGS -->
+    <meta property="og:title" content="Portfolio - Guillermo San Martín" />
+    <meta
+      property="og:description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+
+    <link rel="icon" type="image/x-icon" href="./logos/reacttablogo.svg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TOASTIFY -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="./index.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header">
+        <h2 class="logo">
+          <a
+            aria-label="Link to my portfolio"
+            class="logo-link"
+            href="./index.html"
+            >GSM</a
+          >
+        </h2>
+        <button
+          aria-controls="nav-list"
+          aria-expanded="false"
+          class="mobile-nav-toggle"
+          aria-label="Toggle menu (open/close)"
+        ></button>
+        <nav class="nav">
+          <ul data-visible="false" id="nav-list" class="nav-list">
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio home page"
+                href="./index.html"
+                class="list-link"
+                >Home</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio projects page"
+                href="./project.html"
+                class="list-link"
+                >Projects</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio about me page"
+                href="./about.html"
+                class="list-link"
+                >About me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home" class="home-container">
+      <div class="home">
+        <article class="home-title">
+          <span
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="1500"
+            class="home-span greeting"
+            >Hi, I'm</span
+          >
+          <span
+            data-aos-duration="1500"
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+            class="home-span name"
+            >Guillermo San Martín</span
+          >
+          <span
+            data-aos="zoom-in"
+            data-aos-delay="1500"
+            data-aos-duration="1500"
+            class="home-span frontend"
+            >Frontend Developer</span
+          >
+          <ul
+            class="social-list"
+            data-aos-duration="1500"
+            data-aos="zoom-in"
+            data-aos-delay="2000"
+          >
+            <li class="social-list-item">
+              <a
+                aria-label="Link to my linkedin profile"
+                class="social-link"
+                href="https://www.linkedin.com/in/guillermosanmartin-developer/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./logos/linkedin.svg"
+                  alt="linkedin logo"
+                  class="social-img"
+                />
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                aria-label="Link to my github profile"
+                class="social-link"
+                href="https://github.com/GuillermoSMG"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./logos/github.svg"
+                  alt="github logo"
+                  class="social-img"
+                />
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                aria-label="download my resume"
+                class="projects-link"
+                href="./project.html"
+              >
+                <span class="resume-span">Projects</span>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                aria-label="download my resume"
+                class="resume-link"
+                href="./pdf/CV_frontgsm.pdf"
+                download="CV_FrontEnd-GuillermoSM.pdf"
+              >
+                <span class="resume-span">Resume</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

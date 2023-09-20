@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TITLE -->
+    <title>Portfolio - Guillermo San Martín</title>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- META TAGS -->
+    <meta
+      name="description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+    <meta
+      name="keywords"
+      content="portfolio Guillermo react javascript css html frontend web developer tailwind it technology desarrollo navegador"
+    />
+
+    <!-- OG TAGS -->
+    <meta property="og:title" content="Portfolio - Guillermo San Martín" />
+    <meta
+      property="og:description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+
+    <link rel="icon" type="image/x-icon" href="./logos/reacttablogo.svg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TOASTIFY -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="./index.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header">
+        <h2 class="logo">
+          <a
+            aria-label="Link to my portfolio"
+            class="logo-link"
+            href="./index.html"
+            >GSM</a
+          >
+        </h2>
+        <button
+          aria-controls="nav-list"
+          aria-expanded="false"
+          class="mobile-nav-toggle"
+          aria-label="Toggle menu (open/close)"
+        ></button>
+        <nav class="nav">
+          <ul data-visible="false" id="nav-list" class="nav-list">
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio home page"
+                href="./index.html"
+                class="list-link"
+                >Home</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio projects page"
+                href="./project.html"
+                class="list-link"
+                >Projects</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio about me page"
+                href="./about.html"
+                class="list-link"
+                >About me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="aboutme-container filter">
+      <span class="big-circle-two"></span>
+      <main class="aboutme" data-aos-duration="1500" data-aos="zoom-in">
+        <div class="aboutme-img-container">
+          <img
+            src="./imgs/fotoparacv2.webp"
+            class="aboutme-img"
+            alt="Guillermo's photo"
+          />
+        </div>
+        <p class="aboutme-p">
+          Front-End developer with passion for creating engaging and easy-to-use
+          webs. I enjoy constantly improving my skills and I want to bring
+          significant value to companies.
+        </p>
+      </main>
+    </section>
+    <section class="techstack-container" id="techstack">
+      <h2 class="techstack-title">Tech Stack</h2>
+      <main data-aos-duration="1500" data-aos="zoom-in" class="techstack">
+        <img
+          src="./logos/javascript.svg"
+          title="JavaScript"
+          alt="JavaScript Logo"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/react.svg"
+          alt="React Logo"
+          title="ReactJS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/nodejs.svg"
+          alt="NodeJS Logo"
+          title="NodeJS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/typescript.svg"
+          alt="TypeScript Logo"
+          title="TypeScript"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/next-js.svg"
+          alt="NextJS Logo"
+          title="NextJS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/express.svg"
+          alt="ExpressJS Logo"
+          title="ExpressJS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/firebase.svg"
+          alt="Firebase Logo"
+          title="Firebase"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/mongodb.svg"
+          alt="MongoDB Logo"
+          title="MongoDB"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/prisma.svg"
+          alt="Prisma ORM Logo"
+          title="Prisma ORM"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/reactquery.webp"
+          alt="React Query Logo"
+          title="React Query"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/html.svg"
+          alt="HTML Logo"
+          title="HTML"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/redux.svg"
+          alt="Redux Logo"
+          title="Redux"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/css.svg"
+          alt="CSS Logo"
+          title="CSS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/vanilla-extract.svg"
+          alt="Vanilla Extract Logo"
+          title="Vanilla Extract"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/sass.svg"
+          alt="SASS Logo"
+          title="SASS"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/materialui.svg"
+          title="Material UI"
+          alt="Material UI Logo"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/bootstrap.svg"
+          alt="Bootstrap Logo"
+          title="Bootstrap"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/tailwind.svg"
+          alt="TailwindCSS Logo"
+          title="TailwindCSS"
+          class="techstack-icon"
+        />
+        <img
+          class="stack-img mysql"
+          src="./logos/mysql.svg"
+          alt="MySQL Logo"
+          title="MySQL"
+        />
+        <img
+          src="./logos/astro.svg"
+          alt="Astro Logo"
+          title="Astro"
+          class="techstack-icon"
+        />
+        <img
+          src="./logos/puppeteer.webp"
+          alt="Puppeteer Logo"
+          title="Puppeteer"
+          class="techstack-icon"
+        />
+      </main>
+    </section>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

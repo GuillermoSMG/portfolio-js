@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TITLE -->
+    <title>Portfolio - Guillermo San Martín</title>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- META TAGS -->
+    <meta
+      name="description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+    <meta
+      name="keywords"
+      content="portfolio Guillermo react javascript css html frontend web developer tailwind it technology desarrollo navegador"
+    />
+
+    <!-- OG TAGS -->
+    <meta property="og:title" content="Portfolio - Guillermo San Martín" />
+    <meta
+      property="og:description"
+      content="Guillermo San Martin's personal portfolio, where you'll find contact information, projects completed, and technology stack."
+    />
+
+    <link rel="icon" type="image/x-icon" href="./logos/reacttablogo.svg" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- TOASTIFY -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!-- AOS JS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="./index.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header">
+        <h2 class="logo">
+          <a
+            aria-label="Link to my portfolio"
+            class="logo-link"
+            href="./index.html"
+            >GSM</a
+          >
+        </h2>
+        <button
+          aria-controls="nav-list"
+          aria-expanded="false"
+          class="mobile-nav-toggle"
+          aria-label="Toggle menu (open/close)"
+        ></button>
+        <nav class="nav">
+          <ul data-visible="false" id="nav-list" class="nav-list">
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio home page"
+                href="./index.html"
+                class="list-link"
+                >Home</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio projects page"
+                href="./project.html"
+                class="list-link"
+                >Projects</a
+              >
+            </li>
+            <li class="list-item">
+              <a
+                aria-label="Link to my portfolio about me page"
+                href="./about.html"
+                class="list-link"
+                >About me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="projects" class="projects-container">
+      <h2 class="projects-title">Projects i've made</h2>
+      <main class="projects">
+        <!-- ARTICLE WHATSAPP BOT -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to whatsapp bot"
+            class="project-link"
+            href="https://github.com/GuillermoSMG/whatsapp-bot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/wppweb2.webp"
+              alt="Whatsaap bot"
+              class="project-img"
+              title="WhatsApp bpt"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to whatsapp bot"
+              class="project-link"
+              href="https://github.com/GuillermoSMG/whatsapp-bot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Whatsapp Bot</h3>
+            </a>
+            <span class="project-subtitle">BOT</span>
+            <p class="project-description">
+              Whatsapp web bot with utilities like wether, dolar exchange, etc.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to whatsapp bot"
+                href="https://github.com/GuillermoSMG/whatsapp-bot"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" title="Code" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/nodejs.svg"
+                  alt="NodeJS Logo"
+                  title="NodeJS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- ARTICLE NETFLIX CLONE -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to Netflix clone web"
+            class="project-link"
+            href="https://netflix-clone-gsm.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/netflix.webp"
+              alt="Netflix clone web"
+              class="project-img"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to Netflix clone web"
+              class="project-link"
+              href="https://netflix-clone-gsm.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Netflix Clone</h3>
+            </a>
+            <span class="project-subtitle">Fullstack App</span>
+            <p class="project-description">Fullstack Netflix clone app.</p>
+            <div class="links-container">
+              <a
+                aria-label="Link to Netflix clone web"
+                href="https://netflix-clone-gsm.vercel.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to Netflix clone repositorie"
+                href="https://github.com/GuillermoSMG/netflix-clone"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/next-js.svg"
+                  alt="NextJS Logo"
+                  title="NextJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/typescript.svg"
+                  alt="TypeScript logo"
+                  title="TypeScript"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/mongodb.svg"
+                  alt="MongoDB logo"
+                  title="MongoDB"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/prisma.svg"
+                  alt="Prisma ORM logo"
+                  title="PrismaORM"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/tailwind.svg"
+                  alt="TailwindCSS logo"
+                  title="TailwindCSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE CODEWORD -->
+        <!-- <article
+          class="project"
+          data-aos-duration="1500"
+          data-aos="zoom-in"
+        >
+          <a
+            aria-label="Link to code word web"
+            class="project-link"
+            href="https://codeword.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/codeword.webp"
+              alt="Code Word blog"
+              class="project-img"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to code word web"
+              class="project-link"
+              href="https://codeword.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Code Word</h3>
+            </a>
+            <span class="project-subtitle">Fullstack blog</span>
+            <p class="project-description">
+              Create and delete articles, user signup/login, dark/light theme,
+              users profiles.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to code word web"
+                href="https://codeword.netlify.app/"
+                target="_blank"
+              >
+                <img
+                  src="./logos/web.svg"
+                  alt="Web Logo"
+                />
+              </a>
+              <a
+                aria-label="Link to code word repositorie"
+                href="https://github.com/GuillermoSMG/blog-react"
+                target="_blank"
+              >
+                <img
+                  src="./logos/code.svg"
+                  alt="Code Logo"
+                />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/tailwind.svg"
+                  alt="TailwindCSS logo"
+                  title="TailwindCSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article> -->
+
+        <!-- ARTICLE MESSENGER -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to Messenger clone web"
+            class="project-link"
+            href="https://messenger-clone-gsm.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/messenger.webp"
+              alt="Messenger clone web"
+              class="project-img"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to Messenger clone web"
+              class="project-link"
+              href="https://messenger-clone-gsm.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Messenger Clone</h3>
+            </a>
+            <span class="project-subtitle">Fullstack App</span>
+            <p class="project-description">Fullstack Messenger clone app.</p>
+            <div class="links-container">
+              <a
+                aria-label="Link to Messenger clone web"
+                href="https://messenger-clone-gsm.vercel.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to Messenger clone repositorie"
+                href="https://github.com/GuillermoSMG/messenger-clone"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/next-js.svg"
+                  alt="NextJS Logo"
+                  title="NextJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/typescript.svg"
+                  alt="TypeScript logo"
+                  title="TypeScript"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/mongodb.svg"
+                  alt="MongoDB logo"
+                  title="MongoDB"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/prisma.svg"
+                  alt="Prisma ORM logo"
+                  title="PrismaORM"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/tailwind.svg"
+                  alt="TailwindCSS logo"
+                  title="TailwindCSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE MEDIATUBE -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to mediatube web"
+            class="project-link"
+            href="https://mediatubeapp.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/mediahub.webp"
+              alt="Mediahub website"
+              class="project-img"
+              title="Mediahub website"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to mediatube web"
+              class="project-link"
+              href="https://mediatubeapp.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Mediahub</h3>
+            </a>
+            <span class="project-subtitle">Videos platform</span>
+            <p class="project-description">
+              Video search engine, player, video categories, channels,
+              recommended videos.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to mediatube web"
+                href="https://mediatubeapp.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to mediatube repositorie"
+                href="https://github.com/GuillermoSMG/mediahub-reactJS"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/materialui.svg"
+                  alt="Material UI Logo"
+                  title="Material UI"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE SUMZ -->
+        <article data-aos-duration="1500" data-aos="zoom-in" class="project">
+          <a
+            aria-label="Link to Sumz web"
+            class="project-link"
+            href="https://iasummarize.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/iasummarizer.webp"
+              alt="Sumz Web image"
+              class="project-img"
+              title="Sumz"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to Sumz web"
+              class="project-link"
+              href="https://iasummarize.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Sumz</h3>
+            </a>
+            <span class="project-subtitle">OpenIA Summarizer</span>
+            <p class="project-description">
+              Enter an article or web URL and get a summary of the content.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to Sumz web"
+                href="https://iasummarize.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to Sumz repositorie"
+                href="https://github.com/GuillermoSMG/openia-summarize"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/redux.svg"
+                  alt="Redux Logo"
+                  title="Redux"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img firebase"
+                  src="./logos/css.svg"
+                  alt="CSS Logo"
+                  title="CSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE HN -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to Hacker News Test web"
+            class="project-link"
+            href="https://hacker-news-tech-test.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/hn.webp"
+              alt="Hacker News Test website"
+              class="project-img"
+              title="Hacker News Test website"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to Hacker News Test web"
+              class="project-link"
+              href="https://hacker-news-tech-test.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Hacker News Test</h3>
+            </a>
+            <span class="project-subtitle">News platform</span>
+            <p class="project-description">
+              Get top News Articles and comments from Hacker News API.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to Hacker News Test web"
+                href="https://hacker-news-tech-test.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to Hacker News Test repositorie"
+                href="https://github.com/GuillermoSMG/hacker-news-test"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/typescript.svg"
+                  alt="TypeScript Logo"
+                  title="TypeScript"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/vanilla-extract.svg"
+                  alt="Vanilla Extract Logo"
+                  title="Vanilla Extract"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE CLICK AND TYPE -->
+        <article data-aos-duration="1500" data-aos="zoom-in" class="project">
+          <a
+            aria-label="Link to click and type web"
+            class="project-link"
+            href="https://clickntype.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/click_type.webp"
+              alt="click&type ECommerce"
+              class="project-img"
+              title="clickntype ECommerce"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to click and type web"
+              class="project-link"
+              href="https://clickntype.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Click&Type</h3>
+            </a>
+            <span class="project-subtitle">ECommerce SPA</span>
+            <p class="project-description">
+              Stock and cart management, payment gateway, product gallery.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to click and type web"
+                href="https://clickntype.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to keyboardecommerce (click and type) repositorie"
+                href="https://github.com/GuillermoSMG/keyboardecommerce"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/materialui.svg"
+                  alt="Material UI Logo"
+                  title="Material UI"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img firebase"
+                  src="./logos/firebase.svg"
+                  alt="Firebase Logo"
+                  title="Firebase"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE TESLA CLONE -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to tesla clone web"
+            class="project-link"
+            href="https://teslalandingclone.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/tesla.webp"
+              alt="Code Word blog"
+              class="project-img"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to tesla clone web"
+              class="project-link"
+              href="https://teslalandingclone.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Tesla Clone</h3>
+            </a>
+            <span class="project-subtitle">Landing Page</span>
+            <p class="project-description">
+              Responsive Tesla landing page clone.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to tesla clone web"
+                href="https://teslalandingclone.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to tesla clone repositorie"
+                href="https://github.com/GuillermoSMG/tesla-landing"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/astro.svg"
+                  alt="Astro Logo"
+                  title="Astro"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/tailwind.svg"
+                  alt="TailwindCSS logo"
+                  title="TailwindCSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE FAVORITE REPO -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to favorite repo web"
+            class="project-link"
+            href="https://favoriterepo.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/favoriteRepo.webp"
+              alt="FavoriteRepo website"
+              class="project-img"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to favorite repo web"
+              class="project-link"
+              href="https://favoriterepo.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Favorite Repo</h3>
+            </a>
+            <span class="project-subtitle">Repositories web</span>
+            <p class="project-description">
+              View Github repositories of the entered user, add and remove
+              repositories to favorites.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to favorite repo web"
+                href="https://favoriterepo.netlify.app/"
+                target="_blank"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to favorite repo repositorie"
+                href="https://github.com/GuillermoSMG/reactquery-zustand-favoritesRepos"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/typescript.svg"
+                  alt="TypeScript Logo"
+                  title="TypeScript"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  src="./logos/reactquery.webp"
+                  alt="React Query Logo"
+                  title="React Query"
+                  class="stack-img"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/css.svg"
+                  alt="CSS Logo"
+                  title="CSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE BLOG API REST -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to api rest blog repositorie"
+            class="project-link"
+            href="https://github.com/GuillermoSMG/blog_apiRESTful"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/apisocialnet.webp"
+              alt="API REST blog"
+              class="project-img"
+              title="Movie Searcher"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to api rest blog repositorie"
+              class="project-link"
+              href="https://github.com/GuillermoSMG/blog_apiRESTful"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Blog API</h3>
+            </a>
+            <span class="project-subtitle">API REST</span>
+            <p class="project-description">
+              User, auth, profile, upload images, articles, feed.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to api rest blog repositorie"
+                href="https://github.com/GuillermoSMG/blog_apiRESTful"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" title="Code" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/nodejs.svg"
+                  alt="NodeJS Logo"
+                  title="NodeJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/express.svg"
+                  alt="ExpressJS Logo"
+                  title="ExpressJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/mongodb.svg"
+                  alt="MongoDB Logo"
+                  title="MongoDB"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/jwt.svg"
+                  alt="JSON Web Tokens Logo"
+                  title="JSON Web Tokens"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE MOVIE SEARCHER -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to movie searcher web"
+            class="project-link"
+            href="https://moviesearcher.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/moviesearcher.webp"
+              alt="Movie Searcher"
+              class="project-img"
+              title="Movie Searcher"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to movie searcher web"
+              class="project-link"
+              href="https://moviesearcher.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Movie Searcher</h3>
+            </a>
+            <span class="project-subtitle">Engine to search movies</span>
+            <p class="project-description">
+              Autosearch while typing, debounce, does not allow searching for
+              the same thing twice in a row, filter by alphabetical order.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to movie searcher web"
+                href="https://moviesearcher.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./logos/web.svg" alt="Web Logo" />
+              </a>
+              <a
+                aria-label="Link to movie searcher repositorie"
+                href="https://github.com/GuillermoSMG/movieSearcher"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/react.svg"
+                  alt="React Logo"
+                  title="ReactJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/css.svg"
+                  alt="CSS Logo"
+                  title="CSS"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- ARTICLE SOCIAL NETWORK API REST -->
+        <article class="project" data-aos-duration="1500" data-aos="zoom-in">
+          <a
+            aria-label="Link to social network api rest"
+            class="project-link"
+            href="https://github.com/GuillermoSMG/social-network-API"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./imgs/apisocialnet.webp"
+              alt="Social network api rest"
+              class="project-img"
+              title="Social network api rest"
+            />
+          </a>
+          <div class="project-body">
+            <a
+              aria-label="Link to social network api rest"
+              class="project-link"
+              href="https://github.com/GuillermoSMG/social-network-API"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="project-title">Social Network API</h3>
+            </a>
+            <span class="project-subtitle">API REST</span>
+            <p class="project-description">
+              User, auth, profile, upload images, publications, feed,
+              follow/unfollow system.
+            </p>
+            <div class="links-container">
+              <a
+                aria-label="Link to social network api rest"
+                href="https://github.com/GuillermoSMG/social-network-API"
+                target="_blank"
+              >
+                <img src="./logos/code.svg" alt="Code Logo" title="Code" />
+              </a>
+            </div>
+            <ul class="project-stack">
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/nodejs.svg"
+                  alt="NodeJS Logo"
+                  title="NodeJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/express.svg"
+                  alt="ExpressJS Logo"
+                  title="ExpressJS"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/mongodb.svg"
+                  alt="MongoDB Logo"
+                  title="MongoDB"
+                />
+              </li>
+              <li class="stack-technology">
+                <img
+                  class="stack-img"
+                  src="./logos/jwt.svg"
+                  alt="JSON Web Tokens Logo"
+                  title="JSON Web Tokens"
+                />
+              </li>
+            </ul>
+          </div>
+        </article>
+      </main>
+    </section>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
